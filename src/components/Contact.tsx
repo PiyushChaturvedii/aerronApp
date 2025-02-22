@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { toast } from "@/components/ui/use-toast";
 import { Toaster } from "@/components/ui/toaster";
@@ -72,7 +71,7 @@ const Contact = () => {
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_subject" value="New Contact Form Submission" />
-            <input type="hidden" name="_next" value="https://id-preview--658e58fa-0e25-4594-a85e-c7e843067da4.lovable.app/thank-you" />
+            <input type="hidden" name="_next" value="https://www.aeeron.in/thank-you" />
 
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-light mb-2">
